@@ -1,44 +1,88 @@
+<!-- =========================
+forgot.html
+صفحة نسيان كلمة المرور
+========================= -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+<!-- ترميز الصفحة -->
 <meta charset="UTF-8">
+
+<!-- توافق الموبايل -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Forgot Password</title>
+<!-- عنوان الصفحة -->
+<title>Bookshop | Forgot Password</title>
 
+<!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- ملف CSS -->
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- Navbar -->
+<!-- =========================
+Navbar
+========================= -->
 <nav class="navbar navbar-expand-lg">
 
 <div class="container">
 
-<a href="#" class="navbar-brand text-white">Bookshop</a>
+<!-- اللوجو -->
+<a href="home.html" class="navbar-brand text-white">
+Bookshop
+</a>
 
 <div class="collapse navbar-collapse">
 
+<!-- روابط -->
 <ul class="navbar-nav ms-4">
 
-<li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
-<li class="nav-item"><a href="#" class="nav-link text-white">Books</a></li>
-<li class="nav-item"><a href="#" class="nav-link text-white">About us</a></li>
+<li class="nav-item">
+<a href="home.html" class="nav-link text-white">
+Home
+</a>
+</li>
+
+<li class="nav-item">
+<a href="#" class="nav-link text-white">
+Books
+</a>
+</li>
+
+<li class="nav-item">
+<a href="#" class="nav-link text-white">
+About us
+</a>
+</li>
 
 </ul>
 
+<!-- أزرار -->
 <div class="ms-auto">
 
+<!-- Login -->
 <button class="btn btn-danger me-2"
 onclick="location.href='index.html'">
+
 Log in
+
 </button>
 
+<!-- Signup -->
 <button class="btn btn-light text-danger"
 onclick="location.href='signup.html'">
+
 Sign Up
+
 </button>
 
 </div>
@@ -49,48 +93,80 @@ Sign Up
 
 </nav>
 
-<!-- Hero -->
+<!-- =========================
+Hero Image
+========================= -->
 <section class="hero"></section>
 
-<!-- Forgot Password -->
+<!-- =========================
+Forgot Password Form
+========================= -->
 <section class="login-section">
 
 <div class="login-box">
 
+<!-- عنوان -->
 <h3>Forget Password?</h3>
 
+<!-- وصف -->
 <p class="text-center text-secondary mb-4">
+
 Enter your email to reset your password
+
 </p>
 
+<!-- الإيميل -->
 <label>Email</label>
-<input type="email" placeholder="example@gmail.com">
 
-<button class="login-btn">
+<input type="email"
+placeholder="example@gmail.com">
+
+<!-- زرار إرسال الكود -->
+<button class="login-btn"
+onclick="location.href='reset.html'">
+
 Send reset code
+
 </button>
+
+<!-- رجوع -->
+<p class="signup-text mt-3">
+
+Remember password?
+
+<a href="index.html">
+Login
+</a>
+
+</p>
 
 </div>
 
 </section>
 
-<!-- Footer -->
+<!-- =========================
+Footer
+========================= -->
 <footer class="footer">
 
 <div class="container">
 
 <div class="footer-top">
 
+<!-- يسار -->
 <div class="footer-left">
 
-<a href="#" class="footer-logo">
+<a href="home.html" class="footer-logo">
+
 <i class="bi bi-book me-2"></i>
+
 Bookshop
+
 </a>
 
 <ul class="footer-links">
 
-<li><a href="#">Home</a></li>
+<li><a href="home.html">Home</a></li>
 <li><a href="#">Books</a></li>
 <li><a href="#">About Us</a></li>
 
@@ -98,11 +174,15 @@ Bookshop
 
 </div>
 
+<!-- يمين -->
 <div class="footer-right">
 
 <a href="#"><i class="bi bi-facebook"></i></a>
+
 <a href="#"><i class="bi bi-instagram"></i></a>
+
 <a href="#"><i class="bi bi-youtube"></i></a>
+
 <a href="#"><i class="bi bi-twitter-x"></i></a>
 
 </div>
@@ -114,7 +194,8 @@ Bookshop
 <div class="footer-bottom">
 
 <p>
-&lt;Developed By&gt; EraaSoft &lt;All Copy Rights Reserved&gt; ©2024
+&lt;Developed By&gt; EraaSoft
+&lt;All Copy Rights Reserved&gt; ©2024
 </p>
 
 <div class="language-box">
@@ -134,8 +215,8 @@ Bookshop
 
 </footer>
 
-
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-</html> 
+</html>

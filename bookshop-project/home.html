@@ -1,33 +1,51 @@
-<!-- home.html -->
+<!-- =========================
+home.html
+نسخة نهائية احترافية
+========================= -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Home</title>
+<title>Bookshop | Home</title>
 
+<!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- CSS -->
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- Navbar -->
+<!-- =========================
+Navbar
+========================= -->
 <nav class="navbar navbar-expand-lg">
 
 <div class="container">
 
-<a href="#" class="navbar-brand text-white">
+<a href="home.html" class="navbar-brand text-white">
 Bookshop
 </a>
 
-<div class="collapse navbar-collapse">
+<button class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
 
 <ul class="navbar-nav ms-4">
 
 <li class="nav-item">
-<a href="#" class="nav-link text-warning">Home</a>
+<a href="home.html" class="nav-link text-warning">Home</a>
 </li>
 
 <li class="nav-item">
@@ -40,11 +58,11 @@ Bookshop
 
 </ul>
 
-<div class="ms-auto">
+<div class="ms-auto mt-3 mt-lg-0">
 
 <button class="btn btn-danger me-2"
 onclick="location.href='index.html'">
-Log in
+Log out
 </button>
 
 <button class="btn btn-light text-danger"
@@ -60,12 +78,14 @@ Sign Up
 
 </nav>
 
-<!-- Hero -->
+<!-- =========================
+Hero
+========================= -->
 <section class="home-hero">
 
 <div class="search-box">
 
-<input type="text" placeholder="Search">
+<input type="text" placeholder="Search books...">
 
 <button>🔍</button>
 
@@ -73,7 +93,9 @@ Sign Up
 
 </section>
 
-<!-- Features -->
+<!-- =========================
+Features
+========================= -->
 <section class="features">
 
 <div class="container">
@@ -82,26 +104,26 @@ Sign Up
 
 <div class="col-md-3">
 <div class="feature-icon">🚚</div>
-<h5>Fast & Reliable Shipping</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h5>Fast Shipping</h5>
+<p>Fast and reliable delivery service.</p>
 </div>
 
 <div class="col-md-3">
 <div class="feature-icon">💳</div>
 <h5>Secure Payment</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p>100% safe payment methods.</p>
 </div>
 
 <div class="col-md-3">
 <div class="feature-icon">↩️</div>
 <h5>Easy Returns</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p>Return books easily anytime.</p>
 </div>
 
 <div class="col-md-3">
 <div class="feature-icon">🎧</div>
-<h5>24/7 Customer Support</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<h5>Support 24/7</h5>
+<p>Customer service all day.</p>
 </div>
 
 </div>
@@ -110,28 +132,29 @@ Sign Up
 
 </section>
 
-<!-- Best Seller -->
+<!-- =========================
+Best Seller
+========================= -->
 <section class="best-seller">
 
-<div class="container text-center">
+<div class="container">
 
 <h2>Best Seller</h2>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-Mauris et ultricies est.
+Top rated books chosen by readers.
 </p>
 
 <div class="books-row">
 
-<img src="1.png" alt="">
-<img src="2.png" alt="">
-<img src="3.png" alt="">
-<img src="4.png" alt="">
-<img src="5.png" alt="">
-<img src="6.png" alt="">
-<img src="7.png" alt="">
-<img src="8.png" alt="">
+<img src="1.png">
+<img src="2.png">
+<img src="3.png">
+<img src="4.png">
+<img src="5.png">
+<img src="6.png">
+<img src="7.png">
+<img src="8.png">
 
 </div>
 
@@ -142,32 +165,36 @@ Shop now
 </div>
 
 </section>
-<!-- أضف هذا تحت قسم Best Seller -->
 
+<!-- =========================
+Recommended
+========================= -->
 <section class="recommended">
 
 <div class="container">
 
-<h2>Recomended For You</h2>
+<h2>Recommended For You</h2>
 
 <div class="recommend-grid">
 
-<!-- Book 1 -->
+<!-- Card -->
 <div class="recommend-card">
 
 <img src="9.png">
 
 <div class="recommend-info">
 
-<h3>Rich Dad And Poor Dad</h3>
+<h3>Rich Dad Poor Dad</h3>
 
-<h6>Author: Robert T. Kiyosaki</h6>
+<h6>Author: Robert Kiyosaki</h6>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est. Aliquam in justo varius, sagittis neque ut, malesuada leo. Aliquam in justo varius, Aliquam in justo varius,
+One of the best finance books ever written.
 </p>
 
-<div class="stars">⭐⭐⭐⭐☆ <span>(180 Review)</span></div>
+<div class="stars">
+⭐⭐⭐⭐☆
+</div>
 
 <div class="rate-price">
 <span>Rate: <b>4.2</b></span>
@@ -180,7 +207,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est
 Add To Cart 🛒
 </button>
 
-<button class="love-btn">♡</button>
+<button class="love-btn">
+♡
+</button>
 
 </div>
 
@@ -188,7 +217,7 @@ Add To Cart 🛒
 
 </div>
 
-<!-- Book 2 -->
+<!-- Card -->
 <div class="recommend-card">
 
 <img src="4.png">
@@ -200,10 +229,12 @@ Add To Cart 🛒
 <h6>Author: Debbie Berne</h6>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est. Aliquam in justo varius, sagittis neque ut, malesuada leo. Aliquam in justo varius, Aliquam in justo varius,
+Learn design basics in a practical way.
 </p>
 
-<div class="stars">⭐⭐⭐⭐☆ <span>(210 Review)</span></div>
+<div class="stars">
+⭐⭐⭐⭐☆
+</div>
 
 <div class="rate-price">
 <span>Rate: <b>4.2</b></span>
@@ -216,7 +247,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est
 Add To Cart 🛒
 </button>
 
-<button class="love-btn">♡</button>
+<button class="love-btn">
+♡
+</button>
 
 </div>
 
@@ -229,8 +262,10 @@ Add To Cart 🛒
 </div>
 
 </section>
-<!-- أضف هذا تحت Recommended -->
 
+<!-- =========================
+Flash Sale
+========================= -->
 <section class="flash-sale">
 
 <div class="container">
@@ -238,13 +273,8 @@ Add To Cart 🛒
 <div class="flash-top">
 
 <div>
-
 <h2>Flash Sale</h2>
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est. Aliquam in justo varius, sagittis neque ut, malesuada leo.
-</p>
-
+<p>Limited offers for a short time only.</p>
 </div>
 
 <div class="timer-circle">
@@ -257,7 +287,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est
 
 <button class="arrow-btn">❮</button>
 
-<!-- Card 1 -->
+<!-- Card -->
 <div class="flash-card">
 
 <img src="9.png">
@@ -266,25 +296,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est
 
 <h4>Rich Dad And Poor Dad</h4>
 
-<h6>Author: Robert T. Kiyosaki</h6>
+<h6>Author: Robert T. Kiyosanki</h6>
 
-<div class="stars">⭐⭐⭐⭐☆ <span>(180 Review)</span></div>
+<div class="stars">⭐⭐⭐⭐☆</div>
 
-<h5><del>$45.00</del> $30.00</h5>
-
-<div class="progress">
-<div class="progress-bar"></div>
-</div>
+<h5><del>$45</del> $30</h5>
 
 <p>4 books left</p>
 
-<button class="mini-cart">🛒</button>
+<button class="mini-cart">
+🛒
+</button>
 
 </div>
 
 </div>
 
-<!-- Card 2 -->
+<!-- Card -->
 <div class="flash-card">
 
 <img src="9.png">
@@ -293,19 +321,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est
 
 <h4>Rich Dad And Poor Dad</h4>
 
-<h6>Author: Robert T. Kiyosaki</h6>
+<h6>Author: Robert T. Kiyosanki</h6>
 
-<div class="stars">⭐⭐⭐⭐☆ <span>(180 Review)</span></div>
+<div class="stars">⭐⭐⭐⭐☆</div>
 
-<h5><del>$45.00</del> $30.00</h5>
-
-<div class="progress">
-<div class="progress-bar"></div>
-</div>
+<h5><del>$45</del> $30</h5>
 
 <p>4 books left</p>
 
-<button class="mini-cart">🛒</button>
+<button class="mini-cart">
+🛒
+</button>
 
 </div>
 
@@ -318,23 +344,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ultricies est
 </div>
 
 </section>
-<!-- Footer -->
+
+<!-- =========================
+Footer
+========================= -->
 <footer class="footer">
 
 <div class="container">
 
 <div class="footer-top">
 
-<div class="footer-left">
+<div>
 
-<a href="#" class="footer-logo">
+<a href="home.html" class="footer-logo text-white text-decoration-none">
 <i class="bi bi-book me-2"></i>
 Bookshop
 </a>
 
-<ul class="footer-links">
+<ul class="footer-links mt-3">
 
-<li><a href="#">Home</a></li>
+<li><a href="home.html">Home</a></li>
 <li><a href="#">Books</a></li>
 <li><a href="#">About Us</a></li>
 
@@ -358,7 +387,7 @@ Bookshop
 <div class="footer-bottom">
 
 <p>
-&lt;Developed By&gt; EraaSoft &lt;All Copy Rights Reserved&gt; ©2024
+©2024 Bookshop - All Rights Reserved
 </p>
 
 <div class="language-box">
@@ -377,7 +406,6 @@ Bookshop
 </div>
 
 </footer>
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
